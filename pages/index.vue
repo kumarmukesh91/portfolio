@@ -3,7 +3,7 @@
     <!-- hero section -->
     <el-container>
       <el-row class="hero" justify="center" align="middle"  type="flex">
-        <el-col span="12">
+        <el-col :span="12">
           <el-row>
             <el-col :md="8">
               <logo></logo>
@@ -29,7 +29,7 @@
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row gutter="20">
+          <el-row :gutter="20">
             <el-col :md="{span: 12, push: 12}" :sm="24">
               <el-carousel>
               </el-carousel>
@@ -63,8 +63,8 @@
               </el-main>
             </el-col>
           </el-row>
-          <el-row type="flex" justify="center">
-            <el-col span="4">
+          <el-row type="flex" justify="center" class="m-t-10">
+            <el-col :span="4">
               <a href="//www.advertkit.com" target="_blank">
                 <el-button type="primary"> Go To The App </el-button>
               </a>
@@ -78,7 +78,7 @@
     <el-container class="content bg-white">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row gutter="20">
+          <el-row :gutter="20">
             <el-col :md="{span: 12}" :sm="24">
               <el-carousel>
               </el-carousel>
@@ -112,8 +112,8 @@
               </el-main>
             </el-col>
           </el-row>
-          <el-row type="flex" justify="center">
-            <el-col span="4">
+          <el-row type="flex" justify="center" class="m-t-10">
+            <el-col :span="4">
               <a href="//www.advertkit.com" target="_blank">
                 <el-button type="primary"> Know More </el-button>
               </a>
@@ -127,7 +127,7 @@
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row gutter="20">
+          <el-row :gutter="20">
             <el-col :md="{span: 12, push: 12}" :sm="24">
               <el-carousel>
               </el-carousel>
@@ -159,13 +159,93 @@
               </el-main>
             </el-col>
           </el-row>
-          <el-row type="flex" justify="center">
-            <el-col span="4">
+          <el-row type="flex" justify="center" class="m-t-10">
+            <el-col :span="4">
               <a href="//www.advertkit.com" target="_blank">
                 <el-button type="primary"> Go To The App </el-button>
               </a>
             </el-col>
           </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- recent posts -->
+    <el-container class="content bg-white">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-main>
+            <el-row>
+              <el-col>
+                  <h2>Most Viewed Posts</h2>
+              </el-col>
+            </el-row>
+            <el-row :gutter="20" class="m-t-20">
+              <el-col :md="8" :sm="12" :xs="24">
+                <el-card style="margin-top: 10px">
+                  <h4>Problem With React Single Page App</h4>
+                  <p class="m-t-10">
+                    React is awesome, but the choices to create a single page app with react has challenges.
+                    Here I share the issues I faced when creating a react SPA.
+                  </p>
+                  <a href="http://classandobjects.com/tutorial/problems_with_react_single_page_app/">
+                    <el-button type="text">
+                      Read More
+                    </el-button>
+                  </a>
+                </el-card>
+              </el-col>
+              <el-col :md="8" :sm="12" :xs="24">
+                <el-card style="margin-top: 10px">
+                  <h4>Create Bottom Toolbar Like Google Plus Android</h4>
+                  <p class="m-t-10">
+                    Creating an Android toolbar can be sometimes challenging.
+                    Create a bottom toolbar like google plus with button feedback, touch effects and lot more.
+                  </p>
+                  <a href="http://classandobjects.com/tutorial/create_google_plus_like_toolbar_android/">
+                    <el-button type="text">
+                      Read More
+                    </el-button>
+                  </a>
+                </el-card>
+              </el-col>
+              <el-col :md="8" :sm="12" :xs="24">
+                <el-card style="margin-top: 10px">
+                  <h4>The Zen of form Validation</h4>
+                  <p class="m-t-10">
+                    There are so many ways to validate form and inputs. What is the right way to do it?
+                    Validation gets even more complicated with React js, here is what I do
+                  </p>
+                  <a href="http://classandobjects.com/right_form_validation_in_react/">
+                    <el-button type="text">
+                      Read More
+                    </el-button>
+                  </a>
+                </el-card>
+              </el-col>
+            </el-row>
+            <el-row type="flex" justify="center" class="m-t-30">
+              <el-col :span="4">
+                <a href="//classandobjects.com" target="_blank">
+                  <el-button type="primary"> See All Posts </el-button>
+                </a>
+              </el-col>
+            </el-row>
+          </el-main>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- contact section -->
+    <el-container class="content bg-light center">
+      <el-row>
+        <el-col :span="24">
+          <p>
+            <h3>I'm available for work, get in touch</h3>
+          </p>
+          <p class="m-t-20">
+            ankit.singhaniyaz @ gmail
+          </p>
         </el-col>
       </el-row>
     </el-container>
@@ -189,6 +269,10 @@ export default {
 </script>
 
 <style>
+p {
+  line-height: 1.5;
+}
+
 .description {
   font-size: 1.5em;
   margin-left: 10px;
@@ -222,5 +306,27 @@ export default {
 .content {
   padding: 20px 0;
   /* margin: 10px; */
+}
+
+.post-card {
+  margin-top: 10px;
+  min-height: 250px;
+}
+
+.m-t-30 {
+  margin-top: 30px;
+}
+
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+  margin: auto;
 }
 </style>
