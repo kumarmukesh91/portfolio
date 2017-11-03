@@ -1,5 +1,6 @@
 <template>
   <div>
+    <!-- hero section -->
     <el-container>
       <el-row class="hero" justify="center" align="middle"  type="flex">
         <el-col span="12">
@@ -24,11 +25,16 @@
       </el-row>
     </el-container>
 
-    <el-container class="bg-light">
+    <!-- project 1 - advertkit -->
+    <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row>
-            <el-col :md="12" :sm="24" >
+          <el-row gutter="20">
+            <el-col :md="{span: 12, push: 12}" :sm="24">
+              <el-carousel>
+              </el-carousel>
+            </el-col>
+            <el-col :md="{span: 12, pull: 12}" :sm="24" >
               <el-main>
                 <h2>AdvertKit</h2>
                 <p style="margin-top: 20px">
@@ -56,9 +62,54 @@
                 </p>
               </el-main>
             </el-col>
-            <el-col :md="12" :sm="24">
+          </el-row>
+          <el-row type="flex" justify="center">
+            <el-col span="4">
+              <a href="//www.advertkit.com" target="_blank">
+                <el-button type="primary"> Go To The App </el-button>
+              </a>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- project 2 - formester -->
+    <el-container class="bg-white">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row gutter="20">
+            <el-col :md="{span: 12}" :sm="24">
               <el-carousel>
               </el-carousel>
+            </el-col>
+            <el-col :md="{span: 12}" :sm="24" >
+              <el-main class="content">
+                <h2>Formester</h2>
+                <p style="margin-top: 20px">
+                  A powerful alternative to Facebook Ads Manager. Manage, monitor and optimize
+                  you ads on Facebook Ads platform from a single place. User can create split ads
+                  with the intuitive and powerful interface. Track the progress of an ad using goals,
+                  group similar campaing into campaign groups. Use advanced rules engine to automate
+                  boring and manual tasks.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  AdvertKit is built using Ruby on Rails as the backend, Postgresql as the database
+                  and React.js on the
+                  frontend. It makes use of Bootstrap as the CSS framework. The site is designed
+                  to be responsive on different mobile devices. It integrates very closly with Facebook
+                  API. It is deployed on Heroku
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/rails_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/react_logo.svg" alt="" height="50">
+                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="" height="45">
+                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
+                </p>
+              </el-main>
             </el-col>
           </el-row>
         </el-col>
@@ -85,7 +136,7 @@ export default {
 
 <style>
 .description {
-  font-size: 2em;
+  font-size: 1.5em;
   margin-left: 10px;
   padding: 20px;
 }
@@ -112,5 +163,10 @@ export default {
 .logo-image {
   margin-left: 20px;
   margin-top: 20px;
+}
+
+.content {
+  padding: 20px 0;
+  /* margin: 10px; */
 }
 </style>
