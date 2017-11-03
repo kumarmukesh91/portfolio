@@ -113,7 +113,7 @@
           </el-row>
           <el-row type="flex" justify="center" class="m-t-10">
             <el-col :span="4">
-              <a href="//www.advertkit.com" target="_blank">
+              <a href="https://alternativeto.net/software/formester/" target="_blank">
                 <el-button type="primary"> Know More </el-button>
               </a>
             </el-col>
@@ -135,19 +135,17 @@
               <el-main>
                 <h2>Quoted</h2>
                 <p style="margin-top: 20px">
-                  A powerful alternative to Facebook Ads Manager. Manage, monitor and optimize
-                  you ads on Facebook Ads platform from a single place. User can create split ads
-                  with the intuitive and powerful interface. Track the progress of an ad using goals,
-                  group similar campaing into campaign groups. Use advanced rules engine to automate
-                  boring and manual tasks.
+                  There are many quotes app on the store but none of them where good enough for my need.
+                  So I set out to build an app which will be easy to use and customizable. The main
+                  goal was to explore new quotes and inspirations for great mind around the globe. It has
+                  around 15k+ downloads today on the play store. There are lot of cool features like offline
+                  distraction free mode.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  AdvertKit is built using Ruby on Rails as the backend, Postgresql as the database
-                  and React.js on the
-                  frontend. It makes use of Bootstrap as the CSS framework. The site is designed
-                  to be responsive on different mobile devices. It integrates very closly with Facebook
-                  API. It is deployed on Heroku
+                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
+                  The free stock images served through AWS S3. The application is hosted on Android
+                  Play Store.
                 </p>
                 <p style="margin-top: 15px">
                   <img class="logo-image" src="~/assets/android_logo.png" title="Android application" alt="Android" height="50">
@@ -160,7 +158,7 @@
           </el-row>
           <el-row type="flex" justify="center" class="m-t-10">
             <el-col :span="4">
-              <a href="//www.advertkit.com" target="_blank">
+              <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
                 <el-button type="primary"> Go To The App </el-button>
               </a>
             </el-col>
