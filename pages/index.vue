@@ -47,12 +47,12 @@
                   API. It is deployed on Heroku
                 </p>
                 <p style="margin-top: 15px">
-                  <img src="~/assets/rails_logo.png" alt="" height="50">
-                  <img src="~/assets/react_logo.svg" alt="" height="50" style="margin-left: 20px; margin-top: 20px;">
-                  <img src="~/assets/bootstrap_logo.png" alt="" height="45" style="margin-left: 20px; margin-top: 20px;">
-                  <img src="~/assets/facebook_ads_logo.png" alt="" height="50" style="margin-left: 20px; margin-top: 20px;">
-                  <img src="~/assets/elasticsearch_logo.png" alt="" height="50" style="margin-left: 20px; margin-top: 20px;">
-                  <img src="~/assets/aws_logo.png" alt="" height="50" style="margin-left: 20px; margin-top: 20px;">
+                  <img class="logo-image" src="~/assets/rails_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/react_logo.svg" alt="" height="50">
+                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="" height="45">
+                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
                 </p>
               </el-main>
             </el-col>
@@ -107,5 +107,10 @@ export default {
 
 .bg-white {
   background: #fff;
+}
+
+.logo-image {
+  margin-left: 20px;
+  margin-top: 20px;
 }
 </style>
