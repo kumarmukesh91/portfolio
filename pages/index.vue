@@ -53,12 +53,12 @@
                   API. It is deployed on Heroku
                 </p>
                 <p style="margin-top: 15px">
-                  <img class="logo-image" src="~/assets/rails_logo.png" alt="" height="50">
-                  <img class="logo-image" src="~/assets/react_logo.svg" alt="" height="50">
-                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="" height="45">
-                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="" height="50">
-                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="" height="50">
-                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/rails_logo.png" alt="Ruby on Rails" title="Ruby on Rails" height="50">
+                  <img class="logo-image" src="~/assets/react_logo.svg" alt="React.js" title="React.js" height="50">
+                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="Bootstrap CSS" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="Facebook API" title="Facebook API" height="50">
+                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="Elasticsearch" title="Elasticsearch" height="50">
+                  <img class="logo-image" src="~/assets/aws_logo.png" alt="AWS" title="AWS" height="50">
                 </p>
               </el-main>
             </el-col>
@@ -87,24 +87,23 @@
               <el-main class="content">
                 <h2>Formester</h2>
                 <p style="margin-top: 20px">
-                  A powerful alternative to Facebook Ads Manager. Manage, monitor and optimize
-                  you ads on Facebook Ads platform from a single place. User can create split ads
-                  with the intuitive and powerful interface. Track the progress of an ad using goals,
-                  group similar campaing into campaign groups. Use advanced rules engine to automate
-                  boring and manual tasks.
+                  A form backend as a service. It makes creating form endpoints for
+                  websites very easy. It requires zero programming knowledge. The user
+                  has the full control over the look and feel of the form. In Formester
+                  validation, spam protection and integration with different CRMs are few clicks
+                  away.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  AdvertKit is built using Ruby on Rails as the backend, Postgresql as the database
-                  and React.js on the
-                  frontend. It makes use of Bootstrap as the CSS framework. The site is designed
-                  to be responsive on different mobile devices. It integrates very closly with Facebook
-                  API. It is deployed on Heroku
+                  Formester is built using Ruby on Rails as the backend and powerful Vue.js
+                  on the frontend. The database is powered by Postgresql. It integrates with Zapier
+                  to provide different integrations. Formester makes use of
+                  Google recaptcha to provide spam protection.
                 </p>
                 <p style="margin-top: 15px">
                   <img class="logo-image" title="Ruby on Rails" src="~/assets/rails_logo.png" alt="" height="50">
                   <img class="logo-image" title="Vue js" src="~/assets/vuejs_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Google recaptcha" src="~/assets/heroku_logo.svg" alt="" height="50">
+                  <img class="logo-image" title="Heroku" src="~/assets/heroku_logo.svg" alt="" height="50">
                   <img class="logo-image" title="Zapier integrations" src="~/assets/zapier_logo.svg" alt="" height="50">
                   <img class="logo-image" title="Google recaptcha" src="~/assets/recaptcha_logo.png" alt="" height="50">
                   <img class="logo-image" title="Bootstrap css framework" src="~/assets/bootstrap_logo.png" alt="" height="45">
@@ -182,7 +181,7 @@
             </el-row>
             <el-row :gutter="20" class="m-t-20">
               <el-col :md="8" :sm="12" :xs="24">
-                <el-card style="margin-top: 10px">
+                <el-card class="post-card">
                   <h4>Problem With React Single Page App</h4>
                   <p class="m-t-10">
                     React is awesome, but the choices to create a single page app with react has challenges.
@@ -196,7 +195,7 @@
                 </el-card>
               </el-col>
               <el-col :md="8" :sm="12" :xs="24">
-                <el-card style="margin-top: 10px">
+                <el-card class="post-card">
                   <h4>Create Bottom Toolbar Like Google Plus Android</h4>
                   <p class="m-t-10">
                     Creating an Android toolbar can be sometimes challenging.
@@ -210,8 +209,8 @@
                 </el-card>
               </el-col>
               <el-col :md="8" :sm="12" :xs="24">
-                <el-card style="margin-top: 10px">
-                  <h4>The Zen of form Validation</h4>
+                <el-card class="post-card">
+                  <h4>The Zen of Form Validation</h4>
                   <p class="m-t-10">
                     There are so many ways to validate form and inputs. What is the right way to do it?
                     Validation gets even more complicated with React js, here is what I do
@@ -243,8 +242,10 @@
           <p>
             <h3>I'm available for work, get in touch</h3>
           </p>
-          <p class="m-t-20">
-            ankit.singhaniyaz @ gmail
+          <p class="m-t-20" style="">
+            <strong>
+              ankit.singhaniyaz @ gmail
+            </strong>
           </p>
         </el-col>
       </el-row>
@@ -271,6 +272,7 @@ export default {
 <style>
 p {
   line-height: 1.5;
+  color: #696969;
 }
 
 .description {
