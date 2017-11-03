@@ -75,7 +75,7 @@
     </el-container>
 
     <!-- project 2 - formester -->
-    <el-container class="bg-white">
+    <el-container class="content bg-white">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row gutter="20">
@@ -102,14 +102,68 @@
                   API. It is deployed on Heroku
                 </p>
                 <p style="margin-top: 15px">
-                  <img class="logo-image" src="~/assets/rails_logo.png" alt="" height="50">
-                  <img class="logo-image" src="~/assets/react_logo.svg" alt="" height="50">
-                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="" height="45">
-                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="" height="50">
-                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Ruby on Rails" src="~/assets/rails_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Vue js" src="~/assets/vuejs_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Google recaptcha" src="~/assets/heroku_logo.svg" alt="" height="50">
+                  <img class="logo-image" title="Zapier integrations" src="~/assets/zapier_logo.svg" alt="" height="50">
+                  <img class="logo-image" title="Google recaptcha" src="~/assets/recaptcha_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Bootstrap css framework" src="~/assets/bootstrap_logo.png" alt="" height="45">
+                </p>
+              </el-main>
+            </el-col>
+          </el-row>
+          <el-row type="flex" justify="center">
+            <el-col span="4">
+              <a href="//www.advertkit.com" target="_blank">
+                <el-button type="primary"> Know More </el-button>
+              </a>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- project 3 - quoted -->
+    <el-container class="content bg-light">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row gutter="20">
+            <el-col :md="{span: 12, push: 12}" :sm="24">
+              <el-carousel>
+              </el-carousel>
+            </el-col>
+            <el-col :md="{span: 12, pull: 12}" :sm="24" >
+              <el-main>
+                <h2>Quoted</h2>
+                <p style="margin-top: 20px">
+                  A powerful alternative to Facebook Ads Manager. Manage, monitor and optimize
+                  you ads on Facebook Ads platform from a single place. User can create split ads
+                  with the intuitive and powerful interface. Track the progress of an ad using goals,
+                  group similar campaing into campaign groups. Use advanced rules engine to automate
+                  boring and manual tasks.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  AdvertKit is built using Ruby on Rails as the backend, Postgresql as the database
+                  and React.js on the
+                  frontend. It makes use of Bootstrap as the CSS framework. The site is designed
+                  to be responsive on different mobile devices. It integrates very closly with Facebook
+                  API. It is deployed on Heroku
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/android_logo.png" title="Android application" alt="Android" height="50">
+                  <img class="logo-image" src="~/assets/java_logo.svg" title="Java" alt="Java" height="50">
+                  <img class="logo-image" src="~/assets/python_logo.png" title="Python" alt="Python" height="45">
                   <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
                 </p>
               </el-main>
+            </el-col>
+          </el-row>
+          <el-row type="flex" justify="center">
+            <el-col span="4">
+              <a href="//www.advertkit.com" target="_blank">
+                <el-button type="primary"> Go To The App </el-button>
+              </a>
             </el-col>
           </el-row>
         </el-col>
