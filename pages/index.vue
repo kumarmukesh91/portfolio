@@ -31,7 +31,13 @@
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row :gutter="20">
             <el-col :md="{span: 12, push: 12}" :sm="24">
-              <el-carousel>
+              <el-carousel class="m-t-30">
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/ak1.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/ak2.png" alt="">
+                </el-carousel-item>
               </el-carousel>
             </el-col>
             <el-col :md="{span: 12, pull: 12}" :sm="24" >
@@ -80,11 +86,20 @@
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row :gutter="20">
             <el-col :md="{span: 12}" :sm="24">
-              <el-carousel>
+              <el-carousel class="m-t-30">
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/fms1.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/fms2.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/fms3.png" alt="">
+                </el-carousel-item>
               </el-carousel>
             </el-col>
             <el-col :md="{span: 12}" :sm="24" >
-              <el-main class="content">
+              <el-main>
                 <h2>Formester</h2>
                 <p style="margin-top: 20px">
                   A form backend as a service. It makes creating form endpoints for
@@ -128,7 +143,10 @@
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row :gutter="20">
             <el-col :md="{span: 12, push: 12}" :sm="24">
-              <el-carousel>
+              <el-carousel class="m-t-30">
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/qtd2.png" alt="">
+                </el-carousel-item>
               </el-carousel>
             </el-col>
             <el-col :md="{span: 12, pull: 12}" :sm="24" >
@@ -328,5 +346,10 @@ p {
 .center {
   text-align: center;
   margin: auto;
+}
+
+.carousal {
+  width: 100%;
+  height: 100%;
 }
 </style>
