@@ -5,7 +5,7 @@
       <el-row class="hero-row">
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row :gutter="20">
-            <el-col class="border-right" :md="{span: 12}" :sm="24">
+            <el-col class="border-right large-fonts" :md="{span: 12}" :sm="24">
               <el-main>
                 <h1>Ankit Singhaniya</h1>
                 <h4>Full Stack Developer</h4>
@@ -19,11 +19,20 @@
                   <a href="//linkedin.com/in/ankitsinghaniyaz" class="no-link-style">
                     <i class="icon-linkedin"></i>
                   </a>
+                  <a href="http://classandobjects.com" class="no-link-style">
+                    <i class="icon-globe"></i>
+                  </a>
                 </div>
               </el-main>
             </el-col>
             <el-col :md="{span: 12}" :sm="24" >
-              <h3></h3>
+              <el-main class="m-t-10">
+                <p>
+                  Most of the times you will find me dabbling with some idea unless I am working hard to earn a livelihood.
+                  To me, coding is an art, editor my canvas and keywords are my brush.
+                  When inspiration strikes, I sit down to paint algorithms, which shall be maintained, extended and tested for the ages to come.
+                </p>
+              </el-main>
             </el-col>
           </el-row>
         </el-col>
@@ -312,6 +321,9 @@ p {
   /* min-height: ; */
   margin: 50px 0;
   width: 100%;
+}
+
+.large-fonts {
   font-size: 1.5em;
 }
 
@@ -377,10 +389,10 @@ p {
 .no-link-style {
   text-decoration: inherit;
   color: inherit;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 
 .social {
-  margin-top: 5px;
+  margin-top: 10px;
 }
 </style>
