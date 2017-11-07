@@ -1,26 +1,31 @@
 <template>
   <div>
     <!-- hero section -->
-    <el-container>
-      <el-row class="hero" justify="center" align="middle"  type="flex">
-        <el-col :span="12">
-          <el-row>
-            <el-col :md="8">
-              <logo></logo>
-            </el-col>
-            <el-col :md="16">
-              <div class="description">
-                <h1 class="h1">Ankit Singhaniya</h1>
-                <h3>Full Stack Developer</h3>
-                <h6>
-                  <a href="classandobjects.com">
-                    classandobjects.com
+    <el-container class="content bg-white hero">
+      <el-row class="hero-row">
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row :gutter="20">
+            <el-col class="border-right" :md="{span: 12}" :sm="24">
+              <el-main>
+                <h1>Ankit Singhaniya</h1>
+                <h4>Full Stack Developer</h4>
+                <div class="social">
+                  <a href="//github.com/ankitsinghaniyaz" class="no-link-style">
+                    <i class="icon-github"></i>
                   </a>
-                </h6>
-              </div>
+                  <a href="//twitter.com/aks0510" class="no-link-style">
+                    <i class="icon-twitter"></i>
+                  </a>
+                  <a href="//linkedin.com/in/ankitsinghaniyaz" class="no-link-style">
+                    <i class="icon-linkedin"></i>
+                  </a>
+                </div>
+              </el-main>
+            </el-col>
+            <el-col :md="{span: 12}" :sm="24" >
+              <h3></h3>
             </el-col>
           </el-row>
-
         </el-col>
       </el-row>
     </el-container>
@@ -294,7 +299,7 @@ p {
 .description {
   font-size: 1.5em;
   margin-left: 10px;
-  padding: 20px;
+  padding: 20px 0;
 }
 
 .center {
@@ -303,9 +308,19 @@ p {
 }
 
 .hero {
-  height: 100vh;
-  min-height: 500px;
+  /* height: 100vh; */
+  /* min-height: ; */
+  margin: 50px 0;
   width: 100%;
+  font-size: 1.5em;
+}
+
+.hero-row {
+  width: 100%;
+}
+
+.border-right {
+  border-right: #eee 1px solid;
 }
 
 .bg-light {
@@ -351,5 +366,21 @@ p {
 .carousal {
   width: 100%;
   height: 100%;
+}
+
+.hero-image {
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.no-link-style {
+  text-decoration: inherit;
+  color: inherit;
+  padding-right: 10px;
+}
+
+.social {
+  margin-top: 5px;
 }
 </style>
