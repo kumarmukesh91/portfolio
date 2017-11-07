@@ -10,16 +10,16 @@
                 <h1>Ankit Singhaniya</h1>
                 <h4>Full Stack Developer</h4>
                 <div class="social">
-                  <a href="//github.com/ankitsinghaniyaz" class="no-link-style">
+                  <a target="_blank" href="//github.com/ankitsinghaniyaz" class="no-link-style">
                     <i class="icon-github"></i>
                   </a>
-                  <a href="//twitter.com/aks0510" class="no-link-style">
+                  <a target="_blank" href="//twitter.com/aks0510" class="no-link-style">
                     <i class="icon-twitter"></i>
                   </a>
-                  <a href="//linkedin.com/in/ankitsinghaniyaz" class="no-link-style">
+                  <a target="_blank" href="//linkedin.com/in/ankitsinghaniyaz" class="no-link-style">
                     <i class="icon-linkedin"></i>
                   </a>
-                  <a href="http://classandobjects.com" class="no-link-style">
+                  <a target="_blank" href="http://classandobjects.com" class="no-link-style">
                     <i class="icon-globe"></i>
                   </a>
                 </div>
