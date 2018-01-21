@@ -13,8 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "chart.js": "^2.7.1",
+    "chartjs": "^0.3.24",
     "element-ui": "^2.0.2",
     "nuxt": "^1.0.0-rc11",
+    "vue-chartjs": "^3.0.2",
     "yarn": "^1.2.1"
   },
   "devDependencies": {
