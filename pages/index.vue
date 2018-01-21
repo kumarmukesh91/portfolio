@@ -170,31 +170,29 @@
               <el-main>
                 <h2>Shareito</h2>
                 <p style="margin-top: 20px">
-                  There are many quotes app on the store but none of them where good enough for my need.
-                  So I set out to build an app which will be easy to use and customizable. The main
-                  goal was to explore new quotes and inspirations for great mind around the globe. It has
-                  around 15k+ downloads today on the play store. There are lot of cool features like offline
-                  distraction free mode.
+                  Organizations today rely on multiple software running in the cloud.
+                  Sharing access to contributors and stakeholders can be very challenging.
+                  Shareito provides a central place to manage this.
+                  It helps keep track of suspicious activities, ensures strong password usage and optional 2-factor authentication.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
-                  The free stock images served through AWS S3. The application is hosted on Android
-                  Play Store.
+                  Shareito uses Rails for RESTful API, Vue.js for user interfaces and Postgresql for the database.
+                  It integrates with 10+ 3rd party APIs currently. Hundred more to come soon.
                 </p>
                 <p style="margin-top: 15px">
-                  <img class="logo-image" src="~/assets/android_logo.png" title="Android application" alt="Android" height="50">
-                  <img class="logo-image" src="~/assets/java_logo.svg" title="Java" alt="Java" height="50">
-                  <img class="logo-image" src="~/assets/python_logo.png" title="Python" alt="Python" height="45">
-                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Ruby on Rails" src="~/assets/rails_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Vue js" src="~/assets/vuejs_logo.png" alt="" height="50">
+                  <img class="logo-image" title="Heroku" src="~/assets/heroku_logo.svg" alt="" height="50">
+                  <img class="logo-image" title="Postgresql" src="~/assets/postgres_logo.png" alt="" height="60">
                 </p>
               </el-main>
             </el-col>
           </el-row>
           <el-row type="flex" justify="center" class="m-t-10">
             <el-col :span="4">
-              <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
-                <el-button type="primary"> Go To The App </el-button>
+              <a href="https://beta.shareito.com/" target="_blank">
+                <el-button type="primary">Know More</el-button>
               </a>
             </el-col>
           </el-row>
@@ -216,17 +214,15 @@
                   <img class="logo-image" src="~/assets/selectom_logo.png" title="Android application" alt="Android" height="50">
                 </div>
                 <p style="margin-top: 20px">
-                  There are many quotes app on the store but none of them where good enough for my need.
-                  So I set out to build an app which will be easy to use and customizable. The main
-                  goal was to explore new quotes and inspirations for great mind around the globe. It has
-                  around 15k+ downloads today on the play store. There are lot of cool features like offline
-                  distraction free mode.
+                  Selectom is a smart marketing platform that connects growing businesses with top marketers.
+                  It helps the business choose the right marketing agency or freelancer based on their past performance.
+                  Making data-driven decision making a reality.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
-                  The free stock images served through AWS S3. The application is hosted on Android
-                  Play Store.
+                  Selectom has a micro-service architecture and uses home brewed Python micro-service framework.
+                  MySQL and Redis are used as the persistence layer.
+                  It relies heavily on automated BDD testing via Cucumber.
                 </p>
                 <p style="margin-top: 15px">
                   <img class="logo-image" src="~/assets/python_logo.png" title="Python" alt="Python" height="45">
@@ -237,7 +233,7 @@
 
                 <el-row>
                   <el-col class="center" style="margin-top: 25px">
-                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                    <a href="http://www.selectom.com/" target="_blank">
                       <el-button type="primary"> Go To The App </el-button>
                     </a>
                   </el-col>
@@ -253,27 +249,27 @@
                   <img class="logo-image" src="~/assets/oe_logo.svg" title="Android application" alt="Android" height="50">
                 </div>
                 <p style="margin-top: 20px">
-                  There are many quotes app on the store but none of them where good enough for my need.
-                  So I set out to build an app which will be easy to use and customizable. The main
-                  goal was to explore new quotes and inspirations for great mind around the globe. It has
-                  around 15k+ downloads today on the play store. There are lot of cool features like offline
-                  distraction free mode.
+                  Organized Effort makes collaboration on open projects easy.
+                  It allows organizers to easily create, share and track work.
+                  Step by step onboarding for contributors and a lot more.
+                  Provides an iOS and a progressive web application for other devices.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
-                  The free stock images served through AWS S3. The application is hosted on Android
-                  Play Store.
+                  The progressive web application made using Vue.js
+                  It makes use of Vuex for state management and Vue-Router for routing.
+                  It uses Vuetify as the CSS framework, which provides material design capabilities.
                 </p>
                 <p style="margin-top: 15px">
                   <img class="logo-image" src="~/assets/vuejs_logo.png" title="Android application" alt="Android" height="50">
                   <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
                   <img class="logo-image" src="~/assets/webpack_logo.svg" title="Webpack" alt="Webpack" height="60">
+                  <img class="logo-image" src="~/assets/vuetify_logo.png" title="Vuetify" alt="Vuetify" height="60">
                 </p>
 
                 <el-row>
                   <el-col class="center" style="margin-top: 25px">
-                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                    <a href="https://app.organizedeffort.com" target="_blank">
                       <el-button type="primary"> Go To The App </el-button>
                     </a>
                   </el-col>
@@ -297,11 +293,9 @@
                   <img class="logo-image" src="~/assets/cognisight_logo.svg" title="Android application" alt="Android" height="50">
                 </div>
                 <p style="margin-top: 20px">
-                  There are many quotes app on the store but none of them where good enough for my need.
-                  So I set out to build an app which will be easy to use and customizable. The main
-                  goal was to explore new quotes and inspirations for great mind around the globe. It has
-                  around 15k+ downloads today on the play store. There are lot of cool features like offline
-                  distraction free mode.
+                  Cognisight is transforming the way we access and analyze the business data.
+                  It makes of machine learning and artificial intelligence to provide a natural language interface for exploring business data.
+                  The consumer can use natural English sentences to search deeply correlated data, which is a lot of manual SQL when done ad-hoc.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
@@ -316,8 +310,8 @@
 
                 <el-row>
                   <el-col class="center" style="margin-top: 25px">
-                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
-                      <el-button type="primary"> Go To The App </el-button>
+                    <a href="https://www.cognisight.io/" target="_blank">
+                      <el-button type="primary"> Know More </el-button>
                     </a>
                   </el-col>
                 </el-row>
@@ -334,9 +328,8 @@
                 <p style="margin-top: 20px">
                   There are many quotes app on the store but none of them where good enough for my need.
                   So I set out to build an app which will be easy to use and customizable. The main
-                  goal was to explore new quotes and inspirations for great mind around the globe. It has
-                  around 15k+ downloads today on the play store. There are lot of cool features like offline
-                  distraction free mode.
+                  goal was to explore new quotes and inspirations from great minds around the globe. It has
+                  around 15k+ downloads today on the play store.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
