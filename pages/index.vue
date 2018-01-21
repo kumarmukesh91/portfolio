@@ -69,7 +69,7 @@
                   AdvertKit is built using Ruby on Rails as the backend, Postgresql as the database
                   and React.js on the
                   frontend. It makes use of Bootstrap as the CSS framework. The site is designed
-                  to be responsive on different mobile devices. It integrates very closly with Facebook
+                  to be responsive on different mobile devices. It integrates very closely with Facebook
                   API. It is deployed on Heroku
                 </p>
                 <p style="margin-top: 15px">
