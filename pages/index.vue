@@ -299,9 +299,8 @@
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
-                  The free stock images served through AWS S3. The application is hosted on Android
-                  Play Store.
+                  Cognisight single page application is built using React, Redux and React-Router.
+                  It integrates with the existing backend built using Python Flask.
                 </p>
                 <p style="margin-top: 15px">
                   <img class="logo-image" src="~/assets/react_logo.svg" title="React" alt="React" height="50">
