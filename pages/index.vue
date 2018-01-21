@@ -151,7 +151,7 @@
       </el-row>
     </el-container>
 
-    <!-- project 3 - quoted -->
+    <!-- project 3 - shareito -->
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
@@ -159,13 +159,16 @@
             <el-col :md="{span: 12, push: 12}" :sm="24">
               <el-carousel class="m-t-30">
                 <el-carousel-item>
-                  <img class="carousal" src="~/assets/qtd2.png" alt="">
+                  <img class="carousal" src="~/assets/sto1.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/sto2.png" alt="">
                 </el-carousel-item>
               </el-carousel>
             </el-col>
             <el-col :md="{span: 12, pull: 12}" :sm="24" >
               <el-main>
-                <h2>Quoted</h2>
+                <h2>Shareito</h2>
                 <p style="margin-top: 20px">
                   There are many quotes app on the store but none of them where good enough for my need.
                   So I set out to build an app which will be easy to use and customizable. The main
@@ -193,6 +196,169 @@
               <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
                 <el-button type="primary"> Go To The App </el-button>
               </a>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- More Projects -->
+    <el-container class="content bg-white">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <h2 class="text">
+                    Selectom
+                  </h2>
+                  <img class="logo-image" src="~/assets/selectom_logo.png" title="Android application" alt="Android" height="50">
+                </div>
+                <p style="margin-top: 20px">
+                  There are many quotes app on the store but none of them where good enough for my need.
+                  So I set out to build an app which will be easy to use and customizable. The main
+                  goal was to explore new quotes and inspirations for great mind around the globe. It has
+                  around 15k+ downloads today on the play store. There are lot of cool features like offline
+                  distraction free mode.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
+                  The free stock images served through AWS S3. The application is hosted on Android
+                  Play Store.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/python_logo.png" title="Python" alt="Python" height="45">
+                  <img class="logo-image" src="~/assets/redis_logo.svg" title="Redis" alt="Redis" height="50">
+                  <img class="logo-image" src="~/assets/mysql_logo.png" title="MySql" alt="MySql" height="50">
+                  <img class="logo-image" src="~/assets/cucumber_logo.svg" title="Cucumber" alt="Cucumber" height="50">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                      <el-button type="primary"> Go To The App </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
+            </el-col>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <h2 class="text">
+                    Organized Effort
+                  </h2>
+                  <img class="logo-image" src="~/assets/oe_logo.svg" title="Android application" alt="Android" height="50">
+                </div>
+                <p style="margin-top: 20px">
+                  There are many quotes app on the store but none of them where good enough for my need.
+                  So I set out to build an app which will be easy to use and customizable. The main
+                  goal was to explore new quotes and inspirations for great mind around the globe. It has
+                  around 15k+ downloads today on the play store. There are lot of cool features like offline
+                  distraction free mode.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
+                  The free stock images served through AWS S3. The application is hosted on Android
+                  Play Store.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/vuejs_logo.png" title="Android application" alt="Android" height="50">
+                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
+                  <img class="logo-image" src="~/assets/webpack_logo.svg" title="Webpack" alt="Webpack" height="60">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                      <el-button type="primary"> Go To The App </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+    <el-container class="content bg-light">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <h2 class="text">
+                    Cognisight
+                  </h2>
+                  <img class="logo-image" src="~/assets/cognisight_logo.svg" title="Android application" alt="Android" height="50">
+                </div>
+                <p style="margin-top: 20px">
+                  There are many quotes app on the store but none of them where good enough for my need.
+                  So I set out to build an app which will be easy to use and customizable. The main
+                  goal was to explore new quotes and inspirations for great mind around the globe. It has
+                  around 15k+ downloads today on the play store. There are lot of cool features like offline
+                  distraction free mode.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
+                  The free stock images served through AWS S3. The application is hosted on Android
+                  Play Store.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/react_logo.svg" title="React" alt="React" height="50">
+                  <img class="logo-image" src="~/assets/redux_logo.png" title="Redux" alt="Redux" height="50">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                      <el-button type="primary"> Go To The App </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
+            </el-col>
+            <el-col :md="12" :sm="24">
+              <el-main>
+                <div class="title">
+                  <h2 class="text">
+                    Quoted
+                  </h2>
+                  <img class="logo-image" src="~/assets/quoted_logo.png" title="Android application" alt="Android" height="50">
+                </div>
+                <p style="margin-top: 20px">
+                  There are many quotes app on the store but none of them where good enough for my need.
+                  So I set out to build an app which will be easy to use and customizable. The main
+                  goal was to explore new quotes and inspirations for great mind around the globe. It has
+                  around 15k+ downloads today on the play store. There are lot of cool features like offline
+                  distraction free mode.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Quotes scrapper was built using Python. Then I built the native Android app using Java.
+                  The free stock images served through AWS S3. The application is hosted on Android
+                  Play Store.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/android_logo.png" title="Android application" alt="Android" height="50">
+                  <img class="logo-image" src="~/assets/java_logo.svg" title="Java" alt="Java" height="50">
+                  <img class="logo-image" src="~/assets/python_logo.png" title="Python" alt="Python" height="45">
+                  <img class="logo-image" src="~/assets/aws_logo.png" alt="" height="50">
+                </p>
+
+                <el-row>
+                  <el-col class="center" style="margin-top: 25px">
+                    <a href="https://play.google.com/store/apps/details?id=com.classandobjects.quoted" target="_blank">
+                      <el-button type="primary"> Go To The App </el-button>
+                    </a>
+                  </el-col>
+                </el-row>
+              </el-main>
             </el-col>
           </el-row>
         </el-col>
@@ -394,5 +560,14 @@ p {
 
 .social {
   margin-top: 10px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+
+.title .text {
+  padding-top: 20px
 }
 </style>
