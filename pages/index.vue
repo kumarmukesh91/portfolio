@@ -4,33 +4,28 @@
     <el-container class="content bg-white hero">
       <el-row class="hero-row">
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row :gutter="20">
-            <el-col class="border-right large-fonts" :md="{span: 12}" :sm="24">
+          <el-row>
+            <el-col class="large-fonts" :md="{span: 12}" :sm="24">
               <el-main>
-                <h1>Ankit Singhaniya</h1>
+                <h1>Mukesh Kumar Sahoo</h1>
                 <h4>Full Stack Developer</h4>
                 <div class="social">
-                  <a target="_blank" href="//github.com/ankitsinghaniyaz" class="no-link-style">
+                  <a target="_blank" href="//github.com/kumarmukesh91" class="no-link-style">
                     <i class="icon-github"></i>
                   </a>
-                  <a target="_blank" href="//twitter.com/aks0510" class="no-link-style">
+                  <a target="_blank" href="//twitter.com/kumarmukesh91" class="no-link-style">
                     <i class="icon-twitter"></i>
                   </a>
-                  <a target="_blank" href="//linkedin.com/in/ankitsinghaniyaz" class="no-link-style">
+                  <a target="_blank" href="//linkedin.com/in/kumarmukesh91" class="no-link-style">
                     <i class="icon-linkedin"></i>
-                  </a>
-                  <a target="_blank" href="http://classandobjects.com" class="no-link-style">
-                    <i class="icon-globe"></i>
                   </a>
                 </div>
               </el-main>
             </el-col>
-            <el-col :md="{span: 12}" :sm="24" >
-              <el-main class="m-t-10">
+            <el-col class="border-left" :md="{span: 12}" :sm="24" >
+              <el-main>
                 <p>
-                  Most of the times you will find me dabbling with some idea unless I am working hard to earn a livelihood.
-                  To me, coding is an art, editor my canvas and keywords are my brush.
-                  When inspiration strikes, I sit down to paint algorithms, which shall be maintained, extended and tested for the ages to come.
+                  I love to create mind-boggling, interactive and user-centric design experiences on the web. With SVG, D3.js, and power of the CSS, I've created visualizations that power award-winning applications like iCharts. Other times I work with modern frontend frameworks like Angular, Vue and React to build complex web apps.
                 </p>
               </el-main>
             </el-col>
@@ -40,6 +35,65 @@
     </el-container>
 
     <!-- project 1 - advertkit -->
+    <el-container class="content bg-white">
+      <el-row>
+        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
+          <el-row :gutter="20">
+            <el-col :md="{span: 12}" :sm="24">
+              <el-carousel class="m-t-30">
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/pp/pp1.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/pp/pp2.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/pp/pp3.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/pp/pp4.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/pp/pp5.png" alt="">
+                </el-carousel-item>
+              </el-carousel>
+            </el-col>
+            <el-col :md="{span: 12}" :sm="24" >
+              <el-main>
+                <h2>Phenom Pro</h2>
+                <p style="margin-top: 20px">
+                  Phenom Pro is the modern backbone of talent acquisition, 
+                  empowering recruiters to effectively source candidates, 
+                  nurture their pipeline and make smarter, data-driven decisions.
+                </p>
+                <h5 style="margin-top: 15px">Technology</h5>
+                <p style="margin-top: 15px">
+                  Phenom Pro is built using Angular v5 as the front-end and powered by Java
+                  on the back-end. The database is powered by MongoDB and ElasticSearch. 
+                  It uses D3 and highcharts for building interactive dashboards.
+                </p>
+                <p style="margin-top: 15px">
+                  <img class="logo-image" src="~/assets/tech/angular.png" alt="React.js" title="React.js" height="50">
+                  <img class="logo-image" src="~/assets/tech/bootstrap_logo.png" alt="Bootstrap CSS" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/tech/d3.png" alt="d3" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/tech/elasticsearch_logo.png" alt="Elasticsearch" title="Elasticsearch" height="50">
+                  <img class="logo-image" src="~/assets/tech/aws_logo.svg" alt="AWS" title="AWS" height="50">
+                </p>
+              </el-main>
+            </el-col>
+          </el-row>
+          <el-row type="flex" justify="center" class="m-t-10">
+            <el-col :span="4">
+              <a href="https://www.phenompeople.com/pro" target="_blank">
+                <el-button type="primary"> Know More </el-button>
+              </a>
+            </el-col>
+          </el-row>
+        </el-col>
+      </el-row>
+    </el-container>
+
+    <!-- project 2 - formester -->
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
@@ -47,10 +101,10 @@
             <el-col :md="{span: 12, push: 12}" :sm="24">
               <el-carousel class="m-t-30">
                 <el-carousel-item>
-                  <img class="carousal" src="~/assets/ak1.png" alt="">
+                  <img class="carousal" src="~/assets/ak/ak1.png" alt="">
                 </el-carousel-item>
                 <el-carousel-item>
-                  <img class="carousal" src="~/assets/ak2.png" alt="">
+                  <img class="carousal" src="~/assets/ak/ak2.png" alt="">
                 </el-carousel-item>
               </el-carousel>
             </el-col>
@@ -73,12 +127,12 @@
                   API. It is deployed on Heroku
                 </p>
                 <p style="margin-top: 15px">
-                  <img class="logo-image" src="~/assets/rails_logo.png" alt="Ruby on Rails" title="Ruby on Rails" height="50">
-                  <img class="logo-image" src="~/assets/react_logo.svg" alt="React.js" title="React.js" height="50">
-                  <img class="logo-image" src="~/assets/bootstrap_logo.png" alt="Bootstrap CSS" title="Bootstrap CSS" height="45">
-                  <img class="logo-image" src="~/assets/facebook_ads_logo.png" alt="Facebook API" title="Facebook API" height="50">
-                  <img class="logo-image" src="~/assets/elasticsearch_logo.png" alt="Elasticsearch" title="Elasticsearch" height="50">
-                  <img class="logo-image" src="~/assets/aws_logo.png" alt="AWS" title="AWS" height="50">
+                  <img class="logo-image" src="~/assets/tech/react_logo.svg" alt="React.js" title="React.js" height="50">
+                  <img class="logo-image" src="~/assets/tech/bootstrap_logo.png" alt="Bootstrap CSS" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/tech/d3.png" alt="d3" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/tech/facebook_ads_logo.png" alt="Facebook API" title="Facebook API" height="50">
+                  <img class="logo-image" src="~/assets/tech/elasticsearch_logo.png" alt="Elasticsearch" title="Elasticsearch" height="50">
+                  <img class="logo-image" src="~/assets/tech/aws_logo.svg" alt="AWS" title="AWS" height="50">
                 </p>
               </el-main>
             </el-col>
@@ -94,64 +148,7 @@
       </el-row>
     </el-container>
 
-    <!-- project 2 - formester -->
-    <el-container class="content bg-white">
-      <el-row>
-        <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
-          <el-row :gutter="20">
-            <el-col :md="{span: 12}" :sm="24">
-              <el-carousel class="m-t-30">
-                <el-carousel-item>
-                  <img class="carousal" src="~/assets/fms1.png" alt="">
-                </el-carousel-item>
-                <el-carousel-item>
-                  <img class="carousal" src="~/assets/fms2.png" alt="">
-                </el-carousel-item>
-                <el-carousel-item>
-                  <img class="carousal" src="~/assets/fms3.png" alt="">
-                </el-carousel-item>
-              </el-carousel>
-            </el-col>
-            <el-col :md="{span: 12}" :sm="24" >
-              <el-main>
-                <h2>Formester</h2>
-                <p style="margin-top: 20px">
-                  A form backend as a service. It makes creating form endpoints for
-                  websites very easy. It requires zero programming knowledge. The user
-                  has the full control over the look and feel of the form. In Formester
-                  validation, spam protection and integration with different CRMs are few clicks
-                  away.
-                </p>
-                <h5 style="margin-top: 15px">Technology</h5>
-                <p style="margin-top: 15px">
-                  Formester is built using Ruby on Rails as the backend and powerful Vue.js
-                  on the frontend. The database is powered by Postgresql. It integrates with Zapier
-                  to provide different integrations. Formester makes use of
-                  Google recaptcha to provide spam protection.
-                </p>
-                <p style="margin-top: 15px">
-                  <img class="logo-image" title="Ruby on Rails" src="~/assets/rails_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Vue js" src="~/assets/vuejs_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Heroku" src="~/assets/heroku_logo.svg" alt="" height="50">
-                  <img class="logo-image" title="Zapier integrations" src="~/assets/zapier_logo.svg" alt="" height="50">
-                  <img class="logo-image" title="Google recaptcha" src="~/assets/recaptcha_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Bootstrap css framework" src="~/assets/bootstrap_logo.png" alt="" height="45">
-                </p>
-              </el-main>
-            </el-col>
-          </el-row>
-          <el-row type="flex" justify="center" class="m-t-10">
-            <el-col :span="4">
-              <a href="https://alternativeto.net/software/formester/" target="_blank">
-                <el-button type="primary"> Know More </el-button>
-              </a>
-            </el-col>
-          </el-row>
-        </el-col>
-      </el-row>
-    </el-container>
-
-    <!-- project 3 - shareito -->
+    <!-- project 3 - iCharts -->
     <el-container class="content bg-light">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
@@ -159,39 +156,38 @@
             <el-col :md="{span: 12, push: 12}" :sm="24">
               <el-carousel class="m-t-30">
                 <el-carousel-item>
-                  <img class="carousal" src="~/assets/sto1.png" alt="">
+                  <img class="carousal" src="~/assets/ic/ic1.png" alt="">
                 </el-carousel-item>
                 <el-carousel-item>
-                  <img class="carousal" src="~/assets/sto2.png" alt="">
+                  <img class="carousal" src="~/assets/ic/ic2.png" alt="">
+                </el-carousel-item>
+                <el-carousel-item>
+                  <img class="carousal" src="~/assets/ic/ic3.png" alt="">
                 </el-carousel-item>
               </el-carousel>
             </el-col>
             <el-col :md="{span: 12, pull: 12}" :sm="24" >
               <el-main>
-                <h2>Shareito</h2>
+                <h2>iCharts</h2>
                 <p style="margin-top: 20px">
-                  Organizations today rely on multiple software running in the cloud.
-                  Sharing access to contributors and stakeholders can be very challenging.
-                  Shareito provides a central place to manage this.
-                  It helps keep track of suspicious activities, ensures strong password usage and optional 2-factor authentication.
+                  iCharts for Google Cloud Platform is the most powerful solution to work with your data in BigQuery, Spanner, or CloudSQL.
                 </p>
                 <h5 style="margin-top: 15px">Technology</h5>
                 <p style="margin-top: 15px">
-                  Shareito uses Rails for RESTful API, Vue.js for user interfaces and Postgresql for the database.
-                  It integrates with 10+ 3rd party APIs currently. Hundred more to come soon.
+                  iCharts uses Backbone.js for user interfaces and d3.js for building interactive dashboards.
+                  It integrates with Netsuite for building Business Intelligence Reporting and Analytics dashboards.
                 </p>
                 <p style="margin-top: 15px">
-                  <img class="logo-image" title="Ruby on Rails" src="~/assets/rails_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Vue js" src="~/assets/vuejs_logo.png" alt="" height="50">
-                  <img class="logo-image" title="Heroku" src="~/assets/heroku_logo.svg" alt="" height="50">
-                  <img class="logo-image" title="Postgresql" src="~/assets/postgres_logo.png" alt="" height="60">
+                  <img class="logo-image" src="~/assets/tech/backbone.png" alt="React.js" title="React.js" height="50">
+                  <img class="logo-image" src="~/assets/tech/bootstrap_logo.png" alt="Bootstrap CSS" title="Bootstrap CSS" height="45">
+                  <img class="logo-image" src="~/assets/tech/d3.png" alt="d3" title="d3" height="45">
                 </p>
               </el-main>
             </el-col>
           </el-row>
           <el-row type="flex" justify="center" class="m-t-10">
             <el-col :span="4">
-              <a href="https://beta.shareito.com/" target="_blank">
+              <a href="https://icharts.net/" target="_blank">
                 <el-button type="primary">Know More</el-button>
               </a>
             </el-col>
@@ -201,7 +197,7 @@
     </el-container>
 
     <!-- More Projects -->
-    <el-container class="content bg-white">
+    <!-- <el-container class="content bg-white">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-row>
@@ -355,10 +351,10 @@
           </el-row>
         </el-col>
       </el-row>
-    </el-container>
+    </el-container> -->
 
     <!-- recent posts -->
-    <el-container class="content bg-white">
+    <!-- <el-container class="content bg-white">
       <el-row>
         <el-col :md="{span: 18, offset: 3}" :sm="{span: 24, offset: 0}">
           <el-main>
@@ -421,18 +417,16 @@
           </el-main>
         </el-col>
       </el-row>
-    </el-container>
+    </el-container> -->
 
     <!-- contact section -->
     <el-container class="content bg-light center">
       <el-row>
         <el-col :span="24">
-          <p>
-            <h3>I'm available for work, get in touch</h3>
-          </p>
+          <h3>I'm available for work, get in touch</h3>
           <p class="m-t-20" style="">
             <strong>
-              ankit.singhaniyaz @ gmail
+              mukeshkumarsahoo1991 @ gmail
             </strong>
           </p>
         </el-col>
@@ -489,8 +483,8 @@ p {
   width: 100%;
 }
 
-.border-right {
-  border-right: #eee 1px solid;
+.border-left {
+  border-left: #eee 1px solid;
 }
 
 .bg-light {
@@ -560,6 +554,6 @@ p {
 }
 
 .title .text {
-  padding-top: 20px
+  padding-top: 20px;
 }
 </style>
